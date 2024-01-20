@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/htmx.js"></script>
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="navbar__text">Memory Game</span>
+    </nav>
+
+    <div class="game-modes">
+
+      <button class="game-modes__button" hx-replace-url="true" hx-push-url="true">Easy</button>
+      <button class="game-modes__button">Medium</button>
+      <button class="game-modes__button">Hard</button>
+    </div>
+    <div></div>
+
+    <button hx-replace-url="true" hx-push-url="true">test</button>
+    <div hx-get="/">
+  Go to My Account
+    </div>
+
+
+  </body>
+</html>

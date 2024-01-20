@@ -1,0 +1,11 @@
+{
+  "name": "web-memory-game",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "elysia": "^0.8.9"
+  }
+}
